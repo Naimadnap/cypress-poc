@@ -1,0 +1,14 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "DOM"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "types": ["cypress"],
+    "allowSyntheticDefaultImports": true
+  }
+}
